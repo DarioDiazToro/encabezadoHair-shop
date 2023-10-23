@@ -1,56 +1,49 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.cajaUno{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-.titulo {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    justify-self: center;
-}
-.btn{
-    display: flex;
-    gap: 10px;
-    justify-self: flex-end;
-}
-img{
-    border-radius: 100%;
-    width: 100px;
-}
-ul {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    font-size: 18px;
-    font-family: 'PT Sans', sans-serif;
-    align-items: center;
-}
 h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    padding: 0;
+    font-size: 2.6rem;
+    margin: 0;
 }
 
-.cajaDos{
+.header___nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: orange;
+    padding: 5px 0;
 }
-.icon{
-    width: 24px;
+.header___title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
-.icon___li{
-    width: 22px;
+.title___logo{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
 }
+.header___ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.buscador___input{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container___input{
+    border-radius: 10px;
+    width: 75%;
+    display: flex;
+}
+.ul___li{
+    font-size: 20px;
+    text-decoration: none;
+}
+/* .buscador___input{
+    margin: 0 auto;
+} */

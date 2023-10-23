@@ -1,0 +1,30 @@
+@media(max-width: 1024px){
+    .container-fluid{
+        background: red;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .buscador___input{
+        width: 40%;
+        margin-top: 20px;
+    }
+    .responsive{
+        display: none;
+    }
+    .fixed-top{
+        visibility: visible !important;
+    }
+}
+
+@media(max-width: 320px){
+    .buscador___input{
+        width: 60%;
+    }
+    .title___logo{
+        width: 30px;
+        height: 30px;
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
